@@ -18,3 +18,34 @@ The first thing to do is to see which network interfaces are being used with `if
 
 ![_config.yml]({{ site.baseurl }}/images/2020-1-03-ssh-virtualbox-ubuntu-server/ifconfig-1.png)
 
+The interface shown on the screeshot is the default interafce after installing the machine with NAT configuration. So, we need to identify the other interface for the just added adapter. For doing this, execute this command and you will see a list of the used or not interfaces: 
+
+```bash
+carlos@node:~$ ls -l /sys/class/net/
+total 0
+lrwxrwxrwx 1 root root 0 Jan 10 21:45 enp0s3 -> ../../devices/pci0000:00/0000:00:03.0/net/enp0s3
+lrwxrwxrwx 1 root root 0 Jan 10 21:45 enp0s8 -> ../../devices/pci0000:00/0000:00:08.0/net/enp0s8
+lrwxrwxrwx 1 root root 0 Jan 10 21:45 lo -> ../../devices/virtual/net/lo
+
+```
+
+Once the interface needed is located, note its name and modify the file in charge of the network configuration. I used to go to the */etc/network/interfaces*, but in this system this seems it has been replaced by */etc/netplan* configuration files. You can modify the existing one or create a new one, I decided to add the new interface to the existing one: 
+
+![_config.yml]({{ site.baseurl }}/images/2020-1-03-ssh-virtualbox-ubuntu-server/netplan.png)
+
+
+Finally, the only thing left to do is to apply the new changes in the network configuration file:
+
+```bash
+sudo netplan generate && sudo netplan apply
+```
+
+Is that all ? No, you still need to install the SSH server if you did not do it before: 
+
+```bash
+sudo apt update
+sudo apt install openssh-server
+```
+
+And now yes, it is all. You only have to reboot your system to see the changes applied and be able to connect to it via SSH. 
+
