@@ -2,6 +2,7 @@ name: Deploy to Github Pages
 
 # run when a commit is pushed to "source" branch
 on:
+  workflow_dispatch:
   push:
     branches:
     - source
