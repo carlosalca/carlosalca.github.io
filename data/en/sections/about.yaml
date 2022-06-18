@@ -11,8 +11,8 @@ section:
 designation: Software Engineer
 # your company information
 company:
-  name: Example Co.
-  url: "https://www.example.com"
+  name: Telefónica Tech IoT & BigData
+  url: "https://aiofthings.telefonicatech.com/"
 
 # your resume. this file path should be relative to you "static" directory
 resume: "files/resume.pdf"
