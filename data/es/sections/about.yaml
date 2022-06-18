@@ -1,0 +1,85 @@
+# section information
+section:
+  name: Sobre mi
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: sections/about.html
+
+# your designation
+designation: DevOps Engineer
+# your company information
+company:
+  name: Telefónica Tech IoT & BigData
+  url: "https://aiofthings.telefonicatech.com/"
+
+# your resume. this file path should be relative to you "static" directory
+resume: "files/resume.pdf"
+
+# a summary about you
+summary: 'Trabajo como ingeniero DevOps en Telefónica Tech, dentro del equipo de Blockchain. Trabajo mano a mano con el equipo de desarrollo para crear flujos de despliegue continuo de los aplicativos, así como la monitorización de los mismos. A veces toco algo de backend y en mis ratos libres sigo investigando y aprendiendo sobre cosas nuevas.'
+
+# your social links
+# give as many as you want. use font-awesome for the icons.
+socialLinks:
+- name: Email
+  icon: "fas fa-envelope"
+  url: "carlosalca@gmail.com"
+
+- name: Github
+  icon: "fab fa-github"
+  url: "https://github.com/carlosalca"
+
+- name: LinkedIn
+  icon: "fab fa-linkedin"
+  url: "https://www.linkedin.com/in/carlosalcaide/"
+
+- name: Twitter
+  icon: "fab fa-twitter"
+  url: "https://twitter.com/carlosalca94"
+  
+- name: Medium
+  icon: "fa-brands fa-medium"
+  url: "https://carlosalca.medium.com"
+
+
+# Show your badges
+# You can show your verifiable certificates from https://www.credly.com.
+# You can also show a circular bar indicating the level of expertise on a certain skill
+badges:
+- type: certification
+  name: Grado en Ingeniería Telemática
+  url: "https://www.etsist.upm.es/estudios-ingenieria-sistemas-telecomunicaciones-madrid/grados-ingenieria-Madrid/grados-ingenieria-teleco-Madrid/grado-ingenieria-telematica-madrid"
+  badge: "https://www.etsist.upm.es/nw/themes/comun/logos/logo_etsist32.png"
+
+- type: certification
+  name: Máster en IoT por la UPM
+  url: "https://masteriot.etsist.upm.es/"
+  badge: "https://masteriot.etsist.upm.es/wp-content/uploads/2018/02/logoiotmaster.png"
+
+
+- type: soft-skill-indicator
+  name: Empatía
+  percentage: 85
+  color: blue
+- type: soft-skill-indicator
+  name: Mejora contínua
+  percentage: 85
+  color: green
+
+- type: soft-skill-indicator
+  name: Trabajo en equipo
+  percentage: 90
+  color: yellow
+
+- type: soft-skill-indicator
+  name: Liderazgo
+  percentage: 75
+  color: orange
+
+# you can also provide color code instead of the color name
+# - type: soft-skill-indicator
+#   name: Example 1
+#   percentage: 75
+#   color: "#00adb5"
