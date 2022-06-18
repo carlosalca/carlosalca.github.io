@@ -1,0 +1,94 @@
+# section information
+section:
+  name: Skills
+  id: skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your Skills.
+# Give a summary of you each skill in the summary section.
+skills:
+- name: Kubernetes
+  logo: "/images/sections/skills/kubernetes.png"
+  summary: "Capable of deploying, managing and debugging applications on Kubernetes."
+  url: "https://kubernetes.io/"
+- name: Openshift
+  logo: "/images/sections/skills/openshift.png"
+  summary: "Capable of deploying, managing and debugging applications on Openshift."
+  url: "https://kubernetes.io/"
+- name: NodeJS Development
+  logo: "/images/sections/skills/node.png"
+  summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable software."
+  url: "https://nodejs.org/"
+- name: Cloud Computing
+  logo: "/images/sections/skills/cloud.png"
+  summary: "I have worked mostly with GCP but with basic notions about Azure and AWS."
+- name: Docker
+  logo: "/images/sections/skills/docker.png"
+  url: "https://www.docker.com/"
+  summary: "I love using Docker for everything. Nothing else to comment."
+- name: Jenkins
+  logo: "/images/sections/skills/jenkins.webp"
+  summary: "I have used Jenkins as a tool for automation and for the creation of CICD pipelines. It is not my favourite option, but it I have worked a lot with it."
+  url: "https://www.jenkins.io/"
+- name: "Github Actions"
+  logo: "/images/sections/skills/githubactions.svg"
+  summary: "This is my favourite automation and CICD tool. I prefer using Github Actions rather than Jenkins for everything, even more if deploying self-hosted runners is a possibility."
+  url: "https://github.com/features/actions"
+- name: "ArgoCD"
+  url: "https://argo-cd.readthedocs.io/en/stable/"
+  summary: "Best option for implementing the Gitiops philosophy as part of the CICD pipeline."
+  logo: "/images/sections/skills/argo.png"
+- name: "Argo Rollouts"
+  url: "https://argoproj.github.io/argo-rollouts/"
+  summary: "Best option for implementing progressive delivery as part of the CICD pipeline."
+  logo: "/images/sections/skills/argo.png"
+- name: "Github"
+  url: "https://github.com/"
+  logo: "/images/sections/skills/github.webp"
+  summary: "I prefer working with Github as SCM for all the projects I participate on."
+- name: "Python"
+  url: "https://www.python.org"
+  logo: "/images/sections/skills/python.png"
+  summary: "I have experience using Python for automation and small software proof of concepts."
+- name: "Bash"
+  logo: "/images/sections/skills/bash.png"
+  summary: "I have experience using bash scripting for small automation for deployments and CICD pipelines."
+- name: "Performance testing tools"
+  logo: "/images/sections/skills/performance.jpeg"
+  summary: "I think performance is a very important part of any web application, for that I like to test them and seek possible bottle necks that may deteriorate the performance. I have used toosl like Gatling, K6 and others."
+- name: "Grafana"
+  url: "https://grafana.com/"
+  logo: "/images/sections/skills/grafana.png"
+  summary: "I have experience using Grafana for creating dashboard to show the most relevant data of a platform and to create alarms."
+- name: "Prometheus"
+  url: "https://prometheus.io/"
+  logo: "/images/sections/skills/prometheus.webp"
+  summary: "I have used Prometheus as the primary monitoring tool for everything, using different metrics exporters or creating them if they did not exist."
+- name: "React"
+  url: "https://reactjs.org/"
+  logo: "/images/sections/skills/react.webp"
+  summary: "Frontend development is my weak point, but I sometimes get to learn by myself in order to reinforce this weakness of mine."
+- name: "Ansible"
+  url: "https://www.ansible.com/"
+  logo: "/images/sections/skills/ansible.webp"
+  summary: "I have used Ansible as automation tool for creating private blockchain networks."
+- name: "MongoDB"
+  url: "https://www.mongodb.com/"
+  logo: "/images/sections/skills/mongodb.png"
+  summary: "When developing anything, my prefered option when chosing a database is MongoDB. I usually use this in my API implementations. "
+- name: "ExpressJS"
+  url: "https://expressjs.com/"
+  logo: "/images/sections/skills/expressjs.jpg"
+  summary: "I have experience using this framework for creating REST APIs in different projects."
+- name: "Linux"
+  url: "https://www.linux.org/"
+  logo: "/images/sections/skills/linux.jpeg"
+  summary: "I have experience using Linux environments and, personally, I prefer to work with a Unix based equipment."
+- name: "API Managers and Gateways"
+  url: "https://github.com/"
+  logo: "/images/sections/skills/api.png"
+  summary: "I have experience installing and managing different API Managers and API Gateways like 3Scale, Traefik and Kong."
